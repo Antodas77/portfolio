@@ -202,11 +202,6 @@ const Navbar = () => {
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="experience" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
-                Experience
-              </NavLinks>
-            </NavItem>
-            <NavItem>
               <NavLinks to="education" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
                 Education
               </NavLinks>

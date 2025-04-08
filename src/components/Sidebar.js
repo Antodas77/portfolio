@@ -39,11 +39,11 @@ const SidebarWrapper = styled.div`
 const SidebarMenu = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(9, 80px);
+  grid-template-rows: repeat(8, 80px);
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(9, 60px);
+    grid-template-rows: repeat(8, 60px);
   }
 `;
 
@@ -108,9 +108,6 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
           <SidebarLink to="projects" onClick={toggle} smooth={true} duration={500} spy={true} exact="true" offset={-80}>
             Projects
-          </SidebarLink>
-          <SidebarLink to="experience" onClick={toggle} smooth={true} duration={500} spy={true} exact="true" offset={-80}>
-            Experience
           </SidebarLink>
           <SidebarLink to="education" onClick={toggle} smooth={true} duration={500} spy={true} exact="true" offset={-80}>
             Education
